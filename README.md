@@ -6,7 +6,7 @@
 
 - **전통적인 프로그래밍**: 규칙(알고리즘) + 데이터 → 결과  
 - **머신러닝 방식**: 데이터 + 결과 → 규칙(모델)을 학습
-- <img width="1370" height="756" alt="스크린샷 2025-07-11 121320" src="https://github.com/user-attachments/assets/92524ab4-e619-4551-bea1-a2153fdf27aa" />
+<img width="1370" height="756" alt="스크린샷 2025-07-11 121320" src="https://github.com/user-attachments/assets/92524ab4-e619-4551-bea1-a2153fdf27aa" />
 
 
 ---
