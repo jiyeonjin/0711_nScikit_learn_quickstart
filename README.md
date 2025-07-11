@@ -8,6 +8,13 @@
 - **머신러닝 방식**: 데이터 + 결과 → 규칙(모델)을 학습
 <img width="1370" height="756" alt="스크린샷 2025-07-11 121320" src="https://github.com/user-attachments/assets/92524ab4-e619-4551-bea1-a2153fdf27aa" />
 
+---
+
+<img width="1380" height="758" alt="image" src="https://github.com/user-attachments/assets/5075dc85-60f3-4765-a01d-744f5a200b68" />
+
+> 관련 사이트 : https://www.iso.org/artificial-intelligence/machine-learning
+
+
 
 ---
 
