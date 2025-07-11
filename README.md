@@ -196,6 +196,10 @@ model = LogisticRegression()
 - 모델이 "이건 스팸이야!"라고 예측한 것 중, 실제로 스팸인 비율
 - 즉, **예측이 얼마나 정확했는지** 보여줌
 
+# Colab에서 실습
+> https://colab.research.google.com/drive/1rdJVAkb5E2QTAmZoxPNT5xNYF7n8kJw-?authuser=0#scrollTo=LHKKdzJcbMZ9
+
+
 
 
 
