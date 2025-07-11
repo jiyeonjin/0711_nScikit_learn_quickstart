@@ -156,6 +156,49 @@ from sklearn.linear_model import LogisticRegression
 model = LogisticRegression()
 ```
 
+## Classification Performance Measures : Precision and Recall
+<img width="1374" height="766" alt="image" src="https://github.com/user-attachments/assets/812caa27-d097-4281-a822-a081910d850d" />
+
+# 분류 모델 평가 지표: Precision(정밀도) & Recall(재현율)
+
+머신러닝에서 모델이 얼마나 잘 예측했는지 평가할 때, 정확도(accuracy) 외에도 **정밀도(precision)**와 **재현율(recall)**이라는 중요한 지표가 있음
+
+---
+
+## 용어 먼저 알아보기
+
+| 용어             | 뜻 |
+|------------------|----|
+| **Positive**     | 모델이 **"맞다"**, **"해당된다"**고 예측한 것 |
+| **Negative**     | 모델이 **"아니다"**, **"해당되지 않는다"**고 예측한 것 |
+| **True**         | 예측이 **정답**인 경우 |
+| **False**        | 예측이 **틀림**인 경우 |
+
+---
+
+## 혼동 행렬 (Confusion Matrix)
+
+|               | 예측: 스팸(Positive) | 예측: 정상 메일(Negative) |
+|---------------|---------------------|----------------------------|
+| **실제: 스팸**    | ✅ **True Positive (TP)**  | ❌ **False Negative (FN)** |
+| **실제: 정상**    | ❌ **False Positive (FP)** | ✅ **True Negative (TN)**  |
+
+- **TP**: 스팸을 스팸이라고 잘 맞힘
+- **FP**: 정상 메일을 스팸으로 잘못 판단
+- **FN**: 스팸인데 정상으로 놓침
+- **TN**: 정상 메일을 정상이라고 잘 맞힘
+
+---
+
+## Precision (정밀도)
+
+### 의미:
+- 모델이 "이건 스팸이야!"라고 예측한 것 중, 실제로 스팸인 비율
+- 즉, **예측이 얼마나 정확했는지** 보여줌
+
+
+
+
 
 
 
