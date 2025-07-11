@@ -101,4 +101,62 @@
 
 ---
 
+# 머신러닝 분류기(Classifiers) 정리
+
+## 분류(Classification)란?
+
+분류는 **입력 데이터가 어떤 범주(category)나 클래스(class)에 속하는지를 예측**하는 **지도학습(Supervised Learning)** 문제입니다.
+
+- 예시:
+  - 이메일이 스팸인지 아닌지 분류
+  - 이미지가 고양이인지 개인지 분류
+  - 고객이 이탈할지 유지될지 예측
+
+
+
+---
+
+## 분류기 학습 및 예측 공통 예제 (scikit_learn)
+```bash
+from sklearn.datasets import load_iris
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+from sklearn.metrics import accuracy_score
+from sklearn.ensemble import RandomForestClassifier
+
+# 데이터 로드
+X, y = load_iris(return_X_y=True)
+
+# 데이터 분할
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
+
+# 스케일링 (일부 분류기에 필요)
+scaler = StandardScaler()
+X_train = scaler.fit_transform(X_train)
+X_test = scaler.transform(X_test)
+
+# 분류기 정의 및 학습
+clf = RandomForestClassifier()
+clf.fit(X_train, y_train)
+
+# 예측 및 평가
+y_pred = clf.predict(X_test)
+print("Accuracy:", accuracy_score(y_test, y_pred))
+```
+
+### 1. **로지스틱 회귀(Logistic Regression)**
+
+- **특징**: 선형 모델로서, 확률 기반 이진 분류 수행
+- **장점**: 해석 용이, 빠름
+- **단점**: 선형 결정 경계만 표현 가능
+- **사용 예시**: 이진 분류, 질병 진단
+
+```python
+from sklearn.linear_model import LogisticRegression
+model = LogisticRegression()
+```
+
+
+
+
 
