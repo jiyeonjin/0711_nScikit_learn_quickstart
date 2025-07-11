@@ -1,6 +1,7 @@
 # 머신러닝(Machine Learning) 정리
 
 ## 머신러닝 기본 개념
+참고 사이트 : https://www.iso.org/artificial-intelligence/machine-learning
 
 머신러닝(Machine Learning)은 **명시적인 프로그래밍 없이 데이터로부터 학습하여 예측 또는 분류를 수행하는 인공지능의 한 분야**입니다. 즉, 데이터를 기반으로 패턴을 인식하고 이를 바탕으로 새로운 데이터에 대해 판단하는 기술입니다.
 
